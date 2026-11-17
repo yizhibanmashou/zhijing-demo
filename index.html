@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="知径交互演示：从熟悉的概念出发，探索解释路径。">
+<title>知径 · 概念探索演示</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><a class="brand" href="./" aria-label="知径首页"><span>知</span> 知径 <small>CONCEPT PATH</small></a><span class="badge">研究演示</span></header>
+<main>
+<section class="intro"><p class="eyebrow">✦ &nbsp; 一座可以探索的概念词典</p><h1>从一个问题开始，<br><em>找到理解的路径。</em></h1><p class="lead">选择一个概念，从你熟悉的部分出发，<br>一步步展开它的解释。</p><label for="search">搜索演示概念</label><div class="search"><span aria-hidden="true">⌕</span><input id="search" placeholder="试试：茶、雨伞、书签" autocomplete="off"></div><p class="hint">这是使用自编示例的小范围演示，不连接完整词典。</p><div id="results" class="results" aria-live="polite"></div></section>
+<section class="workspace" aria-label="概念探索"><div class="workspace-head"><div><p class="eyebrow">YOUR EXPLORATION</p><h2>你的探索路径</h2></div><button id="reset" class="quiet">重置已知概念</button></div><p class="guide">选择一个概念，然后展开解释；遇到熟悉的概念，可以标记“我懂”。</p><div id="path" aria-live="polite"></div><div class="note"><strong>关于这个演示</strong><p>节点与解释为说明交互而编写，分支表示示例中的不同解释方式。路径只展示结构，不证明语义正确或学习效果。</p></div></section>
+</main><footer><span>知径 · 一个关于理解路径的探索</span><span>示例数据为本演示编写</span></footer><script src="app.js" defer></script>
+</body></html>
